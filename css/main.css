@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 4.26px 0;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  color: #f650a0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 600;
+}
+.lenguage .nav-link {
+  padding: 0;
+}
+.lenguage ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lenguage span {
+  padding: 0;
+  position: relative;
+}
+.pocetna-lokacija {
+  margin-top: 39px;
+}
+.pocetna-lokacija .nav-link {
+  padding: 0;
+  color: #999999;
+}
+.pocetna-lokacija .nav-link.active {
+  color: #000;
+  font-weight: 700;
+}
+.pocetna-lokacija span {
+  padding: 0 5px;
+  position: relative;
+  color: #999999;
+}
+.busket-item {
+  color: #f650a0;
+  overflow: hidden;
+  border: none;
+}
+.basket {
+  display: flex;
+  margin-bottom: 6px;
+  margin-left: 5px;
+}
+.basket ul li a:hover {
+  text-decoration: none;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+  border: 2px solid;
+}
+
+@media (min-width: 900px) {
+  .container {
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 992px) {
+  .lenguage li + li:before {
+    content: "/";
+    margin-top: -15px;
+    margin-left: 10px;
+    padding: 0;
+    position: absolute;
+  }
+  .basket {
+    margin-bottom: 6px;
+    margin-left: 0px;
+  }
+  .pocetna-lokacija {
+    margin: 0 20%;
+  }
+}

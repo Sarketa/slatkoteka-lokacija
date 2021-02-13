@@ -1,0 +1,46 @@
+.reference {
+  margin-top: 50px;
+}
+.ref-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ref-flex h3 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.box-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxi {
+  margin: 5px;
+  background-color: #d8d8d8;
+}
+.b-1 {
+  width: 109px;
+  height: 42px;
+}
+.b-2 {
+  width: 81px;
+  height: 42px;
+}
+.ketering {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.ketering-poruci p {
+  font-size: 14px;
+  color: #000;
+}
+.ketering-poruci button {
+  background-color: #f454a0;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 7px 5px 8px;
+  font-size: 14px;
+  border-radius: 1.9px;
+}

@@ -1,0 +1,107 @@
+footer {
+  background-image: url("../assets/linijadole/path-9-copy-2.png"),
+    url("../assets/linijagore/path-9-copy-2.png"),
+    url("../assets/footer-image/bitmap.png");
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom, right bottom;
+  background-size: 8%, 30%, 20%;
+  background-color: #ffebf2;
+  height: 50vh;
+  padding-top: 67px;
+  position: relative;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-navigacija ul,
+.footer-info ul,
+.footer-posao ul {
+  list-style: none;
+}
+.footer-navigacija ul li {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.footer-navigacija ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-info ul li {
+  font-size: 14px;
+  padding-top: 5px;
+}
+.footer-info ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.footer-posao ul p {
+  font-size: 14px;
+  color: #f454a0;
+}
+.footer-posao ul button {
+  border: none;
+  border-radius: 1.9px;
+  background-color: #f454a0;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 5px 6px 5px 7px;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    padding-top: 1%;
+    height: 100vh;
+    background-image: url("../assets/footer-image/bitmap.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50%;
+  }
+  .social {
+    width: 100%;
+    margin: 0;
+  }
+  .social .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .social p {
+    text-align: center;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  .social-media img {
+    margin-left: 5px;
+  }
+  .footer-navigacija ul {
+    display: block;
+    margin-top: 20px;
+    padding: 0 5px;
+  }
+  .footer-navigacija ul li {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .footer-info {
+    display: none;
+  }
+  .footer-posao {
+    margin-top: 20px;
+  }
+  .footer-posao ul {
+    margin: 0;
+    padding: 0 5px;
+  }
+  .footer-posao ul li {
+    font-size: 10px;
+  }
+  .footer-posao ul button {
+    font-size: 10px;
+  }
+}

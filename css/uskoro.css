@@ -1,0 +1,107 @@
+.uskoro {
+  width: 80vw;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 30vh;
+  z-index: 1;
+}
+.box-b {
+  width: 100%;
+}
+.box {
+  max-width: 40%;
+}
+.box-1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box-2 {
+  position: relative;
+  z-index: 2;
+}
+.box-3 {
+  position: relative;
+  z-index: 2;
+  top: 95px;
+}
+.box-text {
+  color: #fff;
+  width: 341px;
+  height: 208px;
+  position: relative;
+  z-index: 2;
+  align-self: center;
+  margin-top: 90px;
+  padding-right: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.fransiza {
+  background-image: url("../assets/Logo/path-9-copy-2.png");
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: 100vw 337px;
+  background-position: center;
+  z-index: 9999;
+  position: relative;
+  margin-bottom: 50px;
+}
+.fransiza h2 {
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+.fransiza p {
+  color: #666666;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 24px;
+}
+.fransiza p > span > a {
+  color: #f650a0;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 24px;
+}
+@media screen and (max-width: 645px) {
+  .uskoro {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    padding: 0 5%;
+    margin-bottom: -100px;
+  }
+  .box {
+    width: 200px;
+    height: 100px;
+  }
+  .box-2 {
+    top: 20px;
+    margin-right: 10px;
+  }
+  .box-3 {
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    margin-right: 10px;
+  }
+  .box-text {
+    color: #000;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    align-self: center;
+    text-transform: none;
+    padding-right: 0px;
+  }
+  .fransiza h2 {
+    font-size: 14px;
+    padding: 0 5%;
+  }
+}
